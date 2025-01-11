@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  width: 260px;
+  height: 460px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px grey;
+  margin: 25px 5px;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 23px;
+}
+
+p {
+  font-size: 14px;
+}
